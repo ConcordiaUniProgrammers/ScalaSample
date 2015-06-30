@@ -1,0 +1,297 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes
+compile options:
+4 items
+0 -> -unchecked
+1 -> -deprecation
+2 -> -encoding
+3 -> utf8
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.2
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+9 items
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes\main\scala\GridFsExample$$anonfun$1.class
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes\main\scala\GridFsExample$.class
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes\main\scala\GridFsExample.class
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes\main\scala\Person$.class
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes\main\scala\Person.class
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes\main\scala\Log4jDemo$.class
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes\main\scala\Log4jDemo.class
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes\main\scala\X$.class
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes\main\scala\X.class
+binary dependencies:
+16 items
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> C:\Program Files\Java\jdk1.8.0_20\jre\lib\rt.jar
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> C:\Users\mojtaba\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.3.jar
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> C:\Users\mojtaba\.ivy2\cache\org.mongodb\casbah-commons_2.11\jars\casbah-commons_2.11-2.8.0.jar
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> C:\Users\mojtaba\.ivy2\cache\org.mongodb\casbah-core_2.11\jars\casbah-core_2.11-2.8.0.jar
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> C:\Users\mojtaba\.ivy2\cache\org.mongodb\casbah-gridfs_2.11\jars\casbah-gridfs_2.11-2.8.0.jar
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> C:\Users\mojtaba\.ivy2\cache\org.mongodb\mongo-java-driver\jars\mongo-java-driver-2.13.0.jar
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> C:\Users\mojtaba\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.2.jar
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> C:\Program Files\Java\jdk1.8.0_20\jre\lib\rt.jar
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> C:\Users\mojtaba\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.3.jar
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> C:\Users\mojtaba\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.2.jar
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> C:\Program Files\Java\jdk1.8.0_20\jre\lib\rt.jar
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> C:\Users\mojtaba\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.3.jar
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> C:\Users\mojtaba\.ivy2\cache\org.mongodb\casbah-commons_2.11\jars\casbah-commons_2.11-2.8.0.jar
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> C:\Users\mojtaba\.ivy2\cache\org.mongodb\casbah-core_2.11\jars\casbah-core_2.11-2.8.0.jar
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> C:\Users\mojtaba\.ivy2\cache\org.mongodb\mongo-java-driver\jars\mongo-java-driver-2.13.0.jar
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> C:\Users\mojtaba\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.2.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+9 items
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> main.scala.GridFsExample
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> main.scala.GridFsExample$
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> main.scala.GridFsExample$$anonfun$1
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> main.scala.Person
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> main.scala.Person$
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> main.scala.Log4jDemo
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> main.scala.Log4jDemo$
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> main.scala.X
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> main.scala.X$
+used names:
+142 items
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> $conforms
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> &&
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> +=
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> ->
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> <init>
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> ==
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> AbstractFunction3
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> AnyRef
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> Array
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> Exception
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> Family
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> FileInputStream
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> GFs
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> GridFS
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> GridFsExample
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> Imports
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> LogManager
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> MongoClient
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> MongoConnection
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> MongoDBObject
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> None
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> Person
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> Predef
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> Product
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> ScalaRunTime
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> Serializable
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> String
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> Unit
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> _hashCode
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> _toString
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> apache
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> apply
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> asInstanceOf
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> casbah
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> com
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> commons
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> contentType_=
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> cursor
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> eq
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> error
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> exp
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> file
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> filename_=
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> findOne
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> get
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> getClass
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> getImage
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> getLogger
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> getMessage
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> getName
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> gridfs
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> id
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> image
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> imageAdd
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> imageId
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> info
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> io
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> isInstanceOf
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> java
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> log
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> log4j
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> logging
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> main
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> mongoConnection
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> mongodb
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> name
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> obj
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> org
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> outputAdd
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> package
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> peopleColl
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> person
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> println
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> runtime
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> saveImage
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> savePerson
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> scala
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> toString
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> typedProductIterator
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> writeTo
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> ||
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> <init>
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> AnyRef
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> Array
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> Log4jDemo
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> LogManager
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> Predef
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> String
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> Unit
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> apache
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> debug
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> error
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> fatal
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> getClass
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> getLogger
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> getName
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> info
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> log
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> log4j
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> logging
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> main
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> org
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> println
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> scala
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> warn
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> $conforms
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> +=
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> ->
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> <init>
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> AnyRef
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> Array
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> Exception
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> Imports
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> LogManager
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> MongoConnection
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> MongoDBObject
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> Predef
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> String
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> Unit
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> X
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> apache
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> apply
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> casbah
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> com
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> error
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> exp
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> getClass
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> getLogger
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> getMessage
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> getName
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> log
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> log4j
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> logging
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> main
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> mongoConnection
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> mongodb
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> newObj
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> org
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> package
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> peopleCollection
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> println
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> scala
+product stamps:
+9 items
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes\main\scala\GridFsExample$$anonfun$1.class -> lastModified(1435644434475)
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes\main\scala\GridFsExample$.class -> lastModified(1435644434465)
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes\main\scala\GridFsExample.class -> lastModified(1435644434458)
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes\main\scala\Log4jDemo$.class -> lastModified(1435643204658)
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes\main\scala\Log4jDemo.class -> lastModified(1435643204653)
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes\main\scala\Person$.class -> lastModified(1435644434507)
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes\main\scala\Person.class -> lastModified(1435644434503)
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes\main\scala\X$.class -> lastModified(1435643204725)
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes\main\scala\X.class -> lastModified(1435643204716)
+source stamps:
+3 items
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> hash(1c0bc057a4119d47e9eaa06ada8c2bc1af86e535)
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> hash(4286162bc68f9615d6f82cd27ad4ab1eaa4772c2)
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> hash(609164543a30137336fff78759c93b36f40321a3)
+binary stamps:
+7 items
+C:\Program Files\Java\jdk1.8.0_20\jre\lib\rt.jar -> lastModified(1409380038692)
+C:\Users\mojtaba\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.3.jar -> lastModified(1431292375000)
+C:\Users\mojtaba\.ivy2\cache\org.mongodb\casbah-commons_2.11\jars\casbah-commons_2.11-2.8.0.jar -> lastModified(1422542572000)
+C:\Users\mojtaba\.ivy2\cache\org.mongodb\casbah-core_2.11\jars\casbah-core_2.11-2.8.0.jar -> lastModified(1422542568000)
+C:\Users\mojtaba\.ivy2\cache\org.mongodb\casbah-gridfs_2.11\jars\casbah-gridfs_2.11-2.8.0.jar -> lastModified(1422542583000)
+C:\Users\mojtaba\.ivy2\cache\org.mongodb\mongo-java-driver\jars\mongo-java-driver-2.13.0.jar -> lastModified(1422540463000)
+C:\Users\mojtaba\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.2.jar -> lastModified(1406097530000)
+class names:
+7 items
+C:\Program Files\Java\jdk1.8.0_20\jre\lib\rt.jar -> java.lang.Object
+C:\Users\mojtaba\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.3.jar -> org.apache.logging.log4j.LogManager
+C:\Users\mojtaba\.ivy2\cache\org.mongodb\casbah-commons_2.11\jars\casbah-commons_2.11-2.8.0.jar -> com.mongodb.casbah.commons.Imports$
+C:\Users\mojtaba\.ivy2\cache\org.mongodb\casbah-core_2.11\jars\casbah-core_2.11-2.8.0.jar -> com.mongodb.casbah.MongoClient$
+C:\Users\mojtaba\.ivy2\cache\org.mongodb\casbah-gridfs_2.11\jars\casbah-gridfs_2.11-2.8.0.jar -> com.mongodb.casbah.gridfs.GridFS$
+C:\Users\mojtaba\.ivy2\cache\org.mongodb\mongo-java-driver\jars\mongo-java-driver-2.13.0.jar -> com.mongodb.DBObject
+C:\Users\mojtaba\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.2.jar -> scala.runtime.AbstractFunction3
+internal apis:
+3 items
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCHdWhQAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAKHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cEKGBBB0AAZub3RpZnlzcQB+AAzsZAIkdAAEbmFtZXNxAH4ADBqPGBB0AAR3YWl0c3EAfgAM085u1HQADmNvcHkkZGVmYXVsdCQyc3EAfgAM42xYQXQADSRhc0luc3RhbmNlT2ZzcQB+AAyenOdIdAAMcHJvZHVjdEFyaXR5c3EAfgAMTWov6nQABmVxdWFsc3NxAH4ADB2NXIN0AAlzYXZlSW1hZ2VzcQB+AAy/9TFedAAMYXNJbnN0YW5jZU9mc3EAfgAMiX9XHXQADHN5bmNocm9uaXplZHNxAH4ADB1vPfd0AA0kaXNJbnN0YW5jZU9mc3EAfgAMdaGrF3QACGdldEltYWdlc3EAfgAMZSkXLXQACGNhbkVxdWFsc3EAfgAMC9RamXQABG1haW5zcQB+AAzqDgXadAAGRmFtaWx5c3EAfgAMOJtjmHQADXByb2R1Y3RQcmVmaXhzcQB+AAwTvI0HdAAJbm90aWZ5QWxsc3EAfgAMSGJLfHQACnNhdmVQZXJzb25zcQB+AAyDI11QdAAMaXNJbnN0YW5jZU9mc3EAfgAMwnMLmnQABjxpbml0PnNxAH4ADBlL/pN0AAJpZHNxAH4ADHNVoKV0AAZQZXJzb25zcQB+AAxOGk5pdAACPT1zcQB+AAxRvN/BdAAFY2xvbmVzcQB+AAzA/5okdAANR3JpZEZzRXhhbXBsZXNxAH4ADMktiLt0AA5jb3B5JGRlZmF1bHQkM3NxAH4ADFp3mrZ0AARjb3B5c3EAfgAMWnzOS3QACHRvU3RyaW5nc3EAfgAMc5LQkHQAAiE9c3EAfgAMbdtWtXQACGdldENsYXNzc3EAfgAMlMVgGXQADmNvcHkkZGVmYXVsdCQxc3EAfgAMi3z7fXQAAm5lc3EAfgAM6vBkx3QAD21vbmdvQ29ubmVjdGlvbnNxAH4ADF5j1+10AAJlcXNxAH4ADJPteX50AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAxSPPNNdAADbG9nc3EAfgAMiRqPmHQAAiMjc3EAfgAMc2ljvXQACGZpbmFsaXplc3EAfgAMEM6LOHQADnByb2R1Y3RFbGVtZW50c3EAfgAMMkGXGnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AZ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAEW1haW4uc2NhbGEuUGVyc29udXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AH8Bc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGdMAAlpbmhlcml0ZWRxAH4AZ0wAB3BhcmVudHNxAH4AZ3hxAH4AhnNxAH4AfwF1cQB+AGIAAAAAcHNxAH4AfwF1cQB+AGIAAAAAcHNxAH4AfwF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AIV0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AIVzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJ9zcQB+AJJxAH4AlXNxAH4AlnNxAH4AmXVxAH4AnAAAAANzcQB+AJ50AARqYXZhc3EAfgCedAACaW9xAH4Ao3NxAH4AknQAB1Byb2R1Y3RxAH4AmHNxAH4AknQABkVxdWFsc3EAfgCYc3EAfgCSdAAGT2JqZWN0c3EAfgCWc3EAfgCZdXEAfgCcAAAAA3NxAH4AnnEAfgCpc3EAfgCedAAEbGFuZ3EAfgCjc3EAfgCSdAADQW55cQB+AJhwcHNxAH4AZHEAfgBxdXEAfgByAAAAAHNxAH4AdAB0ABhtYWluLnNjYWxhLkdyaWRGc0V4YW1wbGV1cQB+AHcAAAAAfnEAfgB5dAAGTW9kdWxldXEAfgB9AAAAAHNxAH4AfwFxAH4Ah3BzcQB+AH8Bc3EAfgCJc3EAfgB/AXVxAH4AYgAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AaHEAfgBxdXEAfgByAAAAAHNxAH4AdABxAH4AKXVxAH4AdwAAAABzcQB+AJJ0AARVbml0c3EAfgCWc3EAfgCZdXEAfgCcAAAAAnNxAH4AnnEAfgChcQB+AKN1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgDIeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgB6dAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCTWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgCFc3EAfgCSdAAFQXJyYXlxAH4A0HVxAH4AkAAAAAFzcQB+AJJ0AAZTdHJpbmdzcQB+AJZzcQB+AJl1cQB+AJwAAAADc3EAfgCecQB+AKlzcQB+AJ5xAH4At3EAfgCjcHNxAH4AfwF1cQB+AGIAAAAAcHNxAH4AfwF1cQB+AJAAAAACc3EAfgCScQB+ALFxAH4A6nNxAH4AknEAfgC5cQB+ANBwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHEAfgApc3EAfgD3dAAKbWFpbi5zY2FsYXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTkMTkHN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABQQzpcVXNlcnNcbW9qdGFiYVxEZXNrdG9wXEFsZ29yaXRobVxUZWVrVGFrXFNjYWxhU2FtcGxlXHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQcC8BXpBGdR+nqoGrajCvBr4blNQ==
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC1h+HbAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cCOOoJl0AAZub3RpZnlzcQB+AAyroGaSdAAEd2FpdHNxAH4ADBrMaop0AA0kYXNJbnN0YW5jZU9mc3EAfgAMwNzO8nQABmVxdWFsc3NxAH4ADKRcp/Z0AAxhc0luc3RhbmNlT2ZzcQB+AAwaXqeZdAAMc3luY2hyb25pemVkc3EAfgAMg2CHqXQADSRpc0luc3RhbmNlT2ZzcQB+AAx6bdbWdAAEbWFpbnNxAH4ADOK+ald0AAlub3RpZnlBbGxzcQB+AAzcIm0QdAAMaXNJbnN0YW5jZU9mc3EAfgAMHwZOCHQAAj09c3EAfgAMv+c5GnQABWNsb25lc3EAfgAMUiYlxHQACUxvZzRqRGVtb3NxAH4ADK9AxZh0AAh0b1N0cmluZ3NxAH4ADMZvV+50AAIhPXNxAH4ADOFfO050AAhnZXRDbGFzc3NxAH4ADGX3e/x0AAJuZXNxAH4ADKnVpMZ0AAJlcXNxAH4ADAmQ61B0AANsb2dzcQB+AAwV4+4UdAACIyNzcQB+AAww2F+UdAAIZmluYWxpemVzcQB+AAyOd5fbdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBDeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAUbWFpbi5zY2FsYS5Mb2c0akRlbW91cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AFsBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AYnNxAH4AWwF1cQB+AD4AAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AERxAH4ATXVxAH4ATgAAAABzcQB+AFAAcQB+AB11cQB+AFMAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AYXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH11cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBqeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBWdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBxWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBhc3EAfgBwdAAFQXJyYXlxAH4AdnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBwdAAGU3RyaW5nc3EAfgB0c3EAfgB3dXEAfgB6AAAAA3NxAH4AfHQABGphdmFzcQB+AHx0AARsYW5ncQB+AIFwc3EAfgBbAXVxAH4APgAAAABwc3EAfgBbAXVxAH4AlQAAAAJzcQB+AHB0AAZPYmplY3RxAH4AmXNxAH4AcHQAA0FueXEAfgB2cHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHBxAH4AHXNxAH4AqnQACm1haW4uc2NhbGFzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU5DALiJdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUQoYWK8aPlhXW+CzSetSrHqpHcsI=
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDqBMOAAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cAakFEJ0AAZub3RpZnlzcQB+AAz6ZRPvdAABWHNxAH4ADAQ/prd0AAR3YWl0c3EAfgAMPAtHg3QADSRhc0luc3RhbmNlT2ZzcQB+AAztlUxRdAAGZXF1YWxzc3EAfgAMTZzRgHQADGFzSW5zdGFuY2VPZnNxAH4ADNeTsrJ0AAxzeW5jaHJvbml6ZWRzcQB+AAy3EzWUdAANJGlzSW5zdGFuY2VPZnNxAH4ADMsFHzF0AARtYWluc3EAfgAMSx3EbnQACW5vdGlmeUFsbHNxAH4ADM6B2XZ0AAxpc0luc3RhbmNlT2ZzcQB+AAw8gTv8dAACPT1zcQB+AAxHIoAxdAAFY2xvbmVzcQB+AAwAxkzIdAAIdG9TdHJpbmdzcQB+AAwL6Q+8dAACIT1zcQB+AAzyhIdbdAAIZ2V0Q2xhc3NzcQB+AAy2bQK9dAACbmVzcQB+AAyA+wnNdAACZXFzcQB+AAwYVxSSdAADbG9nc3EAfgAMfhc/6nQAAiMjc3EAfgAMCaWMr3QACGZpbmFsaXplc3EAfgAM2x/+mXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQADG1haW4uc2NhbGEuWHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AWwFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQ0wACWluaGVyaXRlZHEAfgBDTAAHcGFyZW50c3EAfgBDeHEAfgBic3EAfgBbAXVxAH4APgAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4ARHEAfgBNdXEAfgBOAAAAAHNxAH4AUABxAH4AH3VxAH4AUwAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBhdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AfXVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGp4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFZ0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AHFbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGFzcQB+AHB0AAVBcnJheXEAfgB2dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHB0AAZTdHJpbmdzcQB+AHRzcQB+AHd1cQB+AHoAAAADc3EAfgB8dAAEamF2YXNxAH4AfHQABGxhbmdxAH4AgXBzcQB+AFsBdXEAfgA+AAAAAHBzcQB+AFsBdXEAfgCVAAAAAnNxAH4AcHQABk9iamVjdHEAfgCZc3EAfgBwdAADQW55cQB+AHZwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHEAfgAfc3EAfgCqdAAKbWFpbi5zY2FsYXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTkMAuIl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABQQzpcVXNlcnNcbW9qdGFiYVxEZXNrdG9wXEFsZ29yaXRobVxUZWVrVGFrXFNjYWxhU2FtcGxlXHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRgkWRUOjATczb/94dZyTs29AMhow==
+external apis:
+0 items
+source infos:
+3 items
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\GridFsExample.scala -> 
+AAAAAAAAAAA=
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\Log4jDemo.scala -> 
+AAAAAAAAAAA=
+C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\src\main\scala\X.scala -> 
+AAAAAAAAAAA=
+compilations:
+19 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTjnC0BJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTjn6FUN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTjo41Ud1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTjo5yyR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTjo60SJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTjo7/MV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTjo9qm91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTjpD8mJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTkJEtFV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTkLCwJl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTkLEsYN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTkLGHFR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTkLGaz51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTkMAuIl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+14 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTkMEbM51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+15 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTkMKF+N1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+16 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTkMNgl11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+17 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTkMPMuJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+18 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTkMTkHN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUEM6XFVzZXJzXG1vanRhYmFcRGVza3RvcFxBbGdvcml0aG1cVGVla1Rha1xTY2FsYVNhbXBsZVx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==

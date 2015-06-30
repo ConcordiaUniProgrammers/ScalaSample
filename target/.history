@@ -1,0 +1,34 @@
+sbt eclipse
+eclipse
+exit
+sbt eclipse
+eclipse
+update
+exit
+update
+exit
+update
+exit
+update
+exit
+update
+exit
+update
+exit
+update
+eclipse
+exit
+update
+exit
+update
+exit
+update
+reload
+eclipse with-source=true
+reload
+update
+eclipse with-source=true
+re-start
+run
+update
+run

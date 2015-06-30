@@ -1,0 +1,955 @@
+[0m[[33mwarn[0m] [0mMultiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:[0m
+[0m[[33mwarn[0m] [0m * org.scala-lang:scala-library:(2.11.5, 2.11.2)[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#scalasample$sources_javadoc_2.11;0.1[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.logging.log4j#log4j-core;2.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10fbf566[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-core;2.3[0m
+[0m[[0mdebug[0m] [0m	found org.apache.logging.log4j#log4j-core;2.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.logging.log4j#log4j-api;2.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c7835f[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-api;2.3[0m
+[0m[[0mdebug[0m] [0m	found org.apache.logging.log4j#log4j-api;2.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36dd8b4a[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.5[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.5] org.scala-lang#scala-library;2.11.5[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-commons_2.11;2.8.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@595355c2[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#casbah-commons_2.11;2.8.0[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-commons_2.11;2.8.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.github.nscala-time#nscala-time_2.11;1.0.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23da5e61[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.nscala-time#nscala-time_2.11;1.0.0[0m
+[0m[[0mdebug[0m] [0m	found com.github.nscala-time#nscala-time_2.11;1.0.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@697133bc[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: joda-time#joda-time;2.3[0m
+[0m[[0mdebug[0m] [0m	found joda-time#joda-time;2.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@683ecab5[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.joda#joda-convert;1.2[0m
+[0m[[0mdebug[0m] [0m	found org.joda#joda-convert;1.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.6.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fcc9327[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.6.0[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.6.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.mongodb#mongo-java-driver;2.13.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c51d052[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#mongo-java-driver;2.13.0[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#mongo-java-driver;2.13.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-core_2.11;2.8.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d73fb3c[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#casbah-core_2.11;2.8.0[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-core_2.11;2.8.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-query_2.11;2.8.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25ef95d4[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#casbah-query_2.11;2.8.0[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-query_2.11;2.8.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-gridfs_2.11;2.8.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55e10a51[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#casbah-gridfs_2.11;2.8.0[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-gridfs_2.11;2.8.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [test->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-core;2.3 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.apache.logging.log4j#log4j-api;2.3 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.5 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-commons_2.11;2.8.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->joda-time#joda-time;2.3 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.joda#joda-convert;1.2 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.slf4j#slf4j-api;1.6.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#mongo-java-driver;2.13.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-core_2.11;2.8.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-query_2.11;2.8.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.mongodb#casbah-gridfs_2.11;2.8.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#scalasample$sources_javadoc_2.11;0.1 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-compiler;2.11.2 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.2 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-compiler;2.11.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-compiler;2.11.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-compiler;2.11.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.2 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.2 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.2] org.scala-lang#scala-library;2.11.2[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-library;2.11.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-reflect;2.11.2 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.2 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.2] org.scala-lang#scala-reflect;2.11.2[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-reflect;2.11.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-reflect;2.11.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang#scala-reflect;2.11.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang.modules#scala-xml_2.11;1.0.2 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.2 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang.modules#scala-xml_2.11;1.0.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang.modules#scala-xml_2.11;1.0.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang.modules#scala-xml_2.11;1.0.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->jline#jline;2.12 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving jline#jline;2.12 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.12[0m
+[0m[[0mdebug[0m] [0m	found jline#jline;2.12 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->jline#jline;2.12 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->jline#jline;2.12 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#scalasample$sources_javadoc_2.11;0.1->jline#jline;2.12 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.3!log4j-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.3!log4j-core.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.3!log4j-core.jar(src)[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\mojtaba\.ivy2\local\org.apache.logging.log4j\log4j-api\2.3\docs\log4j-api-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\mojtaba\.ivy2\local\org.apache.logging.log4j\log4j-api\2.3\srcs\log4j-api-sources.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.3!log4j-api.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3-javadoc.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3-javadoc.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3-javadoc.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.logging.log4j#log4j-api;2.3!log4j-api.jar(doc) (994ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3-sources.jar[0m
+[0m[[33mwarn[0m] [0m	[FAILED     ] org.apache.logging.log4j#log4j-api;2.3!log4j-api.jar(src): There is not enough space on the disk (155ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-snapshots/org.apache.logging.log4j/log4j-api/2.3/srcs/log4j-api-sources.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-snapshots/org.apache.logging.log4j/log4j-api/2.3/srcs/log4j-api-sources.jar[0m
+[0m[[33mwarn[0m] [0m	[FAILED     ] org.apache.logging.log4j#log4j-api;2.3!log4j-api.jar(src):  (0ms)[0m
+[0m[[33mwarn[0m] [0m==== local: tried[0m
+[0m[[33mwarn[0m] [0m  C:\Users\mojtaba\.ivy2\local\org.apache.logging.log4j\log4j-api\2.3\srcs\log4j-api-sources.jar[0m
+[0m[[33mwarn[0m] [0m==== public: tried[0m
+[0m[[33mwarn[0m] [0m  https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.3/log4j-api-2.3-sources.jar[0m
+[0m[[33mwarn[0m] [0m==== sbt-plugin-snapshots: tried[0m
+[0m[[33mwarn[0m] [0m  http://repo.scala-sbt.org/scalasbt/sbt-plugin-snapshots/org.apache.logging.log4j/log4j-api/2.3/srcs/log4j-api-sources.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.5!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.5!scala-library.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.5!scala-library.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-commons_2.11;2.8.0!casbah-commons_2.11.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-commons_2.11;2.8.0!casbah-commons_2.11.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-commons_2.11;2.8.0!casbah-commons_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.nscala-time#nscala-time_2.11;1.0.0!nscala-time_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.nscala-time#nscala-time_2.11;1.0.0!nscala-time_2.11.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.nscala-time#nscala-time_2.11;1.0.0!nscala-time_2.11.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] joda-time#joda-time;2.3!joda-time.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] joda-time#joda-time;2.3!joda-time.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] joda-time#joda-time;2.3!joda-time.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.joda#joda-convert;1.2!joda-convert.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.joda#joda-convert;1.2!joda-convert.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.joda#joda-convert;1.2!joda-convert.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.0!slf4j-api.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.0!slf4j-api.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.0!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#mongo-java-driver;2.13.0!mongo-java-driver.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#mongo-java-driver;2.13.0!mongo-java-driver.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#mongo-java-driver;2.13.0!mongo-java-driver.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-core_2.11;2.8.0!casbah-core_2.11.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-core_2.11;2.8.0!casbah-core_2.11.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-core_2.11;2.8.0!casbah-core_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-query_2.11;2.8.0!casbah-query_2.11.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-query_2.11;2.8.0!casbah-query_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-query_2.11;2.8.0!casbah-query_2.11.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-gridfs_2.11;2.8.0!casbah-gridfs_2.11.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-gridfs_2.11;2.8.0!casbah-gridfs_2.11.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-gridfs_2.11;2.8.0!casbah-gridfs_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.2!scala-compiler.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.2!scala-compiler.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.2!scala-library.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.2!scala-library.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2!scala-parser-combinators_2.11.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2!scala-parser-combinators_2.11.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12!jline.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12!jline.jar(src)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 638ms :: artifacts dl 1316ms[0m
+[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
+[0m[[33mwarn[0m] [0m	::              FAILED DOWNLOADS            ::[0m
+[0m[[33mwarn[0m] [0m	:: ^ see resolution messages for details  ^ ::[0m
+[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
+[0m[[33mwarn[0m] [0m	:: org.apache.logging.log4j#log4j-api;2.3!log4j-api.jar(src)[0m
+[0m[[33mwarn[0m] [0m	::::::::::::::::::::::::::::::::::::::::::::::[0m
+[0m[[0mdebug[0m] [0m	report for default#scalasample$sources_javadoc_2.11;0.1 compile produced in C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\resolution-cache\reports\default-scalasample$sources_javadoc_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalasample$sources_javadoc_2.11;0.1 runtime produced in C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\resolution-cache\reports\default-scalasample$sources_javadoc_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalasample$sources_javadoc_2.11;0.1 test produced in C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\resolution-cache\reports\default-scalasample$sources_javadoc_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalasample$sources_javadoc_2.11;0.1 provided produced in C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\resolution-cache\reports\default-scalasample$sources_javadoc_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalasample$sources_javadoc_2.11;0.1 optional produced in C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\resolution-cache\reports\default-scalasample$sources_javadoc_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalasample$sources_javadoc_2.11;0.1 compile-internal produced in C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\resolution-cache\reports\default-scalasample$sources_javadoc_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalasample$sources_javadoc_2.11;0.1 runtime-internal produced in C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\resolution-cache\reports\default-scalasample$sources_javadoc_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalasample$sources_javadoc_2.11;0.1 test-internal produced in C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\resolution-cache\reports\default-scalasample$sources_javadoc_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalasample$sources_javadoc_2.11;0.1 plugin produced in C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\resolution-cache\reports\default-scalasample$sources_javadoc_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalasample$sources_javadoc_2.11;0.1 sources produced in C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\resolution-cache\reports\default-scalasample$sources_javadoc_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalasample$sources_javadoc_2.11;0.1 docs produced in C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\resolution-cache\reports\default-scalasample$sources_javadoc_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalasample$sources_javadoc_2.11;0.1 pom produced in C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\resolution-cache\reports\default-scalasample$sources_javadoc_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#scalasample$sources_javadoc_2.11;0.1 scala-tool produced in C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\resolution-cache\reports\default-scalasample$sources_javadoc_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (638ms resolve - 1316ms download)[0m

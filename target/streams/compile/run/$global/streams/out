@@ -1,0 +1,29 @@
+[0m[[0minfo[0m] [0mRunning main.scala.GridFsExample [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-a to terminate.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	C:\Users\mojtaba\Desktop\Algorithm\TeekTak\ScalaSample\target\scala-2.11\classes[0m
+[0m[[0mdebug[0m] [0m	C:\Users\mojtaba\.ivy2\cache\org.apache.logging.log4j\log4j-core\jars\log4j-core-2.3.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\mojtaba\.ivy2\cache\org.apache.logging.log4j\log4j-api\jars\log4j-api-2.3.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\mojtaba\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.5.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\mojtaba\.ivy2\cache\org.mongodb\casbah-commons_2.11\jars\casbah-commons_2.11-2.8.0.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\mojtaba\.ivy2\cache\com.github.nscala-time\nscala-time_2.11\jars\nscala-time_2.11-1.0.0.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\mojtaba\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\mojtaba\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.2.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\mojtaba\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.6.0.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\mojtaba\.ivy2\cache\org.mongodb\mongo-java-driver\jars\mongo-java-driver-2.13.0.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\mojtaba\.ivy2\cache\org.mongodb\casbah-core_2.11\jars\casbah-core_2.11-2.8.0.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\mojtaba\.ivy2\cache\org.mongodb\casbah-query_2.11\jars\casbah-query_2.11-2.8.0.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\mojtaba\.ivy2\cache\org.mongodb\casbah-gridfs_2.11\jars\casbah-gridfs_2.11-2.8.0.jar[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-a exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mInterrupting thread pool-37-thread-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted pool-37-thread-1[0m
+[0m[[0mdebug[0m] [0mInterrupting thread cluster-1-localhost:27017[0m
+[0m[[0mdebug[0m] [0m	Interrupted cluster-1-localhost:27017[0m
+[0m[[0mdebug[0m] [0mInterrupting thread pool-36-thread-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted pool-36-thread-1[0m
+[0m[[0mdebug[0m] [0mInterrupting thread MongoCleaner1067895954[0m
+[0m[[0mdebug[0m] [0m	Interrupted MongoCleaner1067895954[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m
